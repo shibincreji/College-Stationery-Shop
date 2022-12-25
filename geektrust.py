@@ -45,7 +45,7 @@ def calculate_amt(purchase_item):
     print("Total Discount is:", total_discount)
 
 
-# Take the user input
+# user input
 purchase_item = {}
 while True:
     command = input("Command: ")
@@ -68,5 +68,5 @@ while True:
     else:
         break
 
-# Calculate bill
+# Calculate final amount
 calculate_amt(purchase_item)
